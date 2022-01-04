@@ -211,17 +211,8 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                     <i class="fa fa-search"></i>检测</a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update(item.id)">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <!-- <a class="btn btn-primary btn-white btn-xs"  href="javascript:void(0);" mwl-confirm
-                                            message="确认删除？"
-                                            placement="left"
-                                            on-confirm="vm.remove(item,$event)"
-                                            on-cancel="cancelClicked = true">
-                                                    <i class="fa fa-trash-o"></i>删除
-                                                </a> -->
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
+
                             </div>
                         </td>
                     </tr>
@@ -272,10 +263,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                 <a class="btn btn-primary btn-white btn-xs"
                                     ng-click="vm.update('562066da24168c11c38b3fb9')">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -324,10 +312,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.edit(item,$event)"
                                     ng-if="item.status=='已授权'">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a> -->
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -373,10 +358,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
 
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update(item.id)">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -424,10 +406,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update()">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -514,10 +493,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                     <i class="fa fa-search"></i>检测</a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update()">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -565,10 +541,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                     <i class="fa fa-search"></i>检测</a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update()">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -607,10 +580,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.edit(item,$event)"
                                     ng-if="item.status=='已授权'">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -662,10 +632,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                     <i class="fa fa-search"></i>检测</a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update()">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -743,10 +710,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                     <i class="fa fa-search"></i>检测</a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update()">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -796,10 +760,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update($event, item.id)">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -840,10 +801,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.edit(item,$event)"
                                     ng-if="item.status=='已授权'">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -889,10 +847,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.edit(item,$event)"
                                     ng-if="item.status=='已授权'">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -933,10 +888,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.edit(item,$event)"
                                     ng-if="item.status=='已授权'">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -981,10 +933,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                     <i class="fa fa-search"></i>检测</a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update()">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -1032,10 +981,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                     <i class="fa fa-search"></i>检测</a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update(item)">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -1083,10 +1029,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                     <i class="fa fa-search"></i>检测</a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update()">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -1130,10 +1073,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.edit(item,$event)"
                                     ng-if="item.status=='已授权'">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -1177,10 +1117,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.edit(item,$event)"
                                     ng-if="item.status=='已授权'">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -1224,10 +1161,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.edit(item,$event)"
                                     ng-if="item.status=='已授权'">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -1271,10 +1205,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.edit(item,$event)"
                                     ng-if="item.status=='已授权'">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -1318,10 +1249,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.edit(item,$event)"
                                     ng-if="item.status=='已授权'">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -1369,10 +1297,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                     <i class="fa fa-search"></i>检测</a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update(item)">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -1420,10 +1345,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                     <i class="fa fa-search"></i>检测</a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update(item)">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -1471,10 +1393,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                     <i class="fa fa-search"></i>检测</a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update(item)">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -1517,9 +1436,6 @@ const siteAuthHtml=`<div class="breadcrumbs">
                             <div>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.edit(item,$event)" ng-if="item.status=='已授权'">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);" ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
                             </div>
                         </td>
                     </tr>
@@ -1564,10 +1480,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update()">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                             <div>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.syncStore(item)">
@@ -1621,9 +1534,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                     <i class="fa fa-search"></i>检测</a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update('77a2ab2df5a945449df9d02694956641')">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);" ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -1669,10 +1580,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update()">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -1725,9 +1633,6 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                     <i class="fa fa-search"></i>检测</a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update('77a2ab2df5a945449df9d02694956641')">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);" ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.editOperate(item,$event)">
                                     <i class="fa fa-pencil-square-o"></i>
                                     编辑
@@ -1768,10 +1673,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.edit(item,$event)"
                                     ng-if="item.status=='已授权'">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -1808,10 +1710,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.edit(item,$event)"
                                     ng-if="item.status=='已授权'">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -1849,10 +1748,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.edit(item,$event)"
                                     ng-if="item.status=='已授权'">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -1890,10 +1786,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.edit(item,$event)"
                                     ng-if="item.status=='已授权'">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -1946,10 +1839,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                     <i class="fa fa-search"></i>检测</a>
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update()">
                                     <i class="fa fa-download"></i>更新授权</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
@@ -1998,10 +1888,6 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                  <i class="fa fa-search"></i>检测</a>
                              <a class="btn btn-primary btn-white btn-xs" ng-click="vm.update()">
                                  <i class="fa fa-download"></i>更新授权</a>
-                             <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                 ng-click="vm.remove(item, $event)">
-                                 <i class="fa fa-trash-o"></i>删除
-                             </a>
                          </div>
                      </td>
                  </tr>
@@ -2039,10 +1925,7 @@ const siteAuthHtml=`<div class="breadcrumbs">
                                 <a class="btn btn-primary btn-white btn-xs" ng-click="vm.edit(item,$event)"
                                     ng-if="item.status=='已授权'">
                                     <i class="fa fa-pencil-square-o"></i>编辑</a>
-                                <a class="btn btn-danger btn-white btn-xs" href="javascript:void(0);"
-                                    ng-click="vm.remove(item,$event)">
-                                    <i class="fa fa-trash-o"></i>删除
-                                </a>
+
                             </div>
                         </td>
                     </tr>
