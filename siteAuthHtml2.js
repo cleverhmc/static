@@ -15,9 +15,6 @@ const siteAuthHtml=`<div class="breadcrumbs">
     </ul>
 </div>
 <div class="container-fluid" ng-controller="rootCtrl as vm">
-    <div class="alert alert-warning alert-mini" ng-hide="vm.alertShow">
-        <button type="button" class="close" ng-click="vm.alertShow=1">&times;</button>
-        <strong>温馨提示：</strong> 一个芒果店长账号可以管理多个店铺，但一个店铺不能同时绑定多个芒果店长账号。 </div>
     <div class="mui-container" ng-if="vm.isShow">
         <mg-scrollfix padding="20">
             <div class="clearfix mui-scrollfix">
